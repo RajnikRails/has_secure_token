@@ -32,7 +32,7 @@ module ActiveRecord
       end
 
       def generate_unique_secure_token
-        SecureRandom.base58(24)
+        SecureRandom.base58(5)
       end
     end
   end
